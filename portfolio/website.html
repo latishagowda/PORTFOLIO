@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100" background="./background portfolio.jpeg.avif">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">My Portfolio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">R.LATISHA</h1>
+            <h2 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h2>
+
+            <p class="text-lg">I am showcasing my work here.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            <p>I'm Latisha a student pursuing my B.Tech in Computer Science and Engineering from REVA University,Bengaluru </p>
+            <p>My current interest includes web development and coding </p><br><br>
+            <p>CLICK HERE TO VIEW MY RESUME</p>
+            <a href="./Resume copy  (1).pdf" target="_blank"><U>Download PDF</U></a>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <!-- Display projects here using JavaScript -->
+            <div id="projectList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project cards will be dynamically added here -->
+            </div>
+            <a href="https://rawcdn.githack.com/latishagowda/web-page/de335512db25abe3ae945ad5b719f2dcebf8357e/html%20and%20css%20sdp/project/project.html" target="_blank"><u>Click here to know my website</u></a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <!-- Contact form -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+          
+            <P><i class="fas fa-mobile-alt phone-icon"></i><b>     MOBILE NUMBER  :</b>   +91 7022800218</P>
+            <P><i class="fas fa-envelope"></i><b> E- MAIL  :</b><a href="mailto:latishagowda29@gmail.com@example.com"> <u>    latishagowda29@gmail.com</u></a></P>
+            <p><i class="fab fa-linkedin-in linkedin-icon"></i><b>         LINKEDIN  : </b><a href="https://www.linkedin.com/in/latisha-gowda-33a2922a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><u>My LinkedIn profile</u></a></p>
+            <p><i class="fab fa-skype"></i> <b>    SKYPE ID: </b> <a href="https://join.skype.com/invite/r8e8JFeCJ9Bx" target="_blank"> <u>My_skype_id</u></a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="javascript.js"></script>
+</body>
+</html>

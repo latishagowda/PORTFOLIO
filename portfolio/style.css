@@ -1,0 +1,10 @@
+.container {
+    background-image: url('./background\ portfolio.jpeg.avif');
+    background-size: cover; /* Cover the entire container area */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    height: 400px; /* Set the height of the container */
+    width: 100%; /* Set the width to 100% of the viewport */
+}
+.p{
+    color:"dimgray";
+}
